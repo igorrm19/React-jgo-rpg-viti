@@ -1,0 +1,21 @@
+
+
+.classApp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.classApp-main{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+
+    width: 960px;
+    height: 100vh;
+}
