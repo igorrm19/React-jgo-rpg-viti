@@ -2,30 +2,30 @@ import React from 'react'
 import './index.css'
 import { TILE_SIZE } from '../../settings/constantes';
 
-const Hero = () => {
+const MineDemo = () => {
    return(
     <>
       <div 
-
-        className='hero-div'
+      
+        className='MineDemo-div'
 
         style={{
           
           height: 100,
           width: TILE_SIZE,
           position: 'absolute',
-          bottom: 48,
+          bottom: 48*4,
           left: 500,
-          backgroundImage: "url(./public/assetes/Assets/HERO.png)",
+          backgroundImage: "url(./public/assetes/Assets/MINI-DEMON.png)",
           backgroundRepeat: 'no-repeat',
-          animation: 'hero-animation 1s infinite steps(4)'
+          animation: 'MineDemo-animation 1s infinite steps(4)'
           
           }} ></div>
     </>
    )
 }
 
-export default Hero
+export default MineDemo
    
 
 React.useEffect

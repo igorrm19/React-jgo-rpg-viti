@@ -6,7 +6,7 @@ const Hero = () => {
    return(
     <>
       <div 
-
+      
         className='hero-div'
 
         style={{
@@ -25,7 +25,7 @@ const Hero = () => {
    )
 }
 
-export default Hero
+export default Hero  
    
 
 React.useEffect
