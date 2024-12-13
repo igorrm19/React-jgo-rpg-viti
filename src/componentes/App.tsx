@@ -2,6 +2,7 @@
 import './App.css'
 import Board from '../componentes/board/index'
 import MineDemo from './mineDemo'
+import Demon from './Demon/index.jsx'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
    <div className='classApp'>
      <main className='classApp-main'>
        <MineDemo/>
+       <Demon />
        <Board/>
      </main>
    </div>
