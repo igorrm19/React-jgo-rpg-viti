@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import { TILE_SIZE } from '../../settings/constantes';
+import { HERO_HEMET_OFFSET, TILE_SIZE } from '../../settings/constantes';
 
 const Hero = () => {
    return(
@@ -14,11 +14,11 @@ const Hero = () => {
           height: 100,
           width: TILE_SIZE,
           position: 'absolute',
-          bottom: 48,
+          bottom: 500,
           left: 500,
           backgroundImage: "url(./public/assetes/Assets/HERO.png)",
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: `0px -${TILE_SIZE-12}px`,
+          backgroundPosition: `0px -${TILE_SIZE-HERO_HEMET_OFFSET}px`,
           animation: 'hero-animation 1s infinite steps(4)'
           
           }} ></div>
