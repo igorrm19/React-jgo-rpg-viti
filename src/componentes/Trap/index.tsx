@@ -11,7 +11,7 @@ const Trap = () => {
 
         style={{
           
-          height: 100,
+          height: 101, 
           width: TILE_SIZE,
           position: 'absolute',
           bottom: 48,
@@ -28,5 +28,7 @@ const Trap = () => {
 export default Trap;  
    
 
-React.useEffect
+React.useEffect;
+
+
 

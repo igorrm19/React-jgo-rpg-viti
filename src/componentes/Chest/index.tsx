@@ -18,7 +18,7 @@ const Chest = () => {
           left: ALEATORIO_LEFT,
           backgroundImage: "url(./public/assetes/Assets/CHEST.png)",
           backgroundRepeat: 'no-repeat',
-          animation: 'chest-animation 1s infinite steps(4)'
+          animation: 'chest-animation 1s infinite steps(2)'
           
           }} ></div>
     </>
