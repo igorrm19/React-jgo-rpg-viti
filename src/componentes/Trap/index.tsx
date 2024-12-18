@@ -2,31 +2,33 @@ import React from 'react'
 import './index.css'
 import { TILE_SIZE } from '../../settings/constantes';
 
-const Hero = () => {
+const Trap = () => {
    return(
     <>
       <div 
       
-        className='hero-div'
+        className='trap-div'
 
         style={{
           
-          height: 100,
+          height: 101, 
           width: TILE_SIZE,
           position: 'absolute',
           bottom: 48,
-          left: 500,
-          backgroundImage: "url(./public/assetes/Assets/HERO.png)",
+          left: 400,
+          backgroundImage: "url(./public/assetes/Assets/TRAP.png)",
           backgroundRepeat: 'no-repeat',
-          animation: 'hero-animation 1s infinite steps(4)'
+          animation: 'trap-animation 1s infinite steps(4)'
           
           }} ></div>
     </>
    )
 }
 
-export default Hero  
+export default Trap;  
    
 
-React.useEffect
+React.useEffect;
+
+
 

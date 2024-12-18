@@ -1,4 +1,4 @@
-@keyframes hero-animation {
+@keyframes chest-animation {
     from{ background-position-x: 0; }
 
     to{ background-position-x: -192px; }
