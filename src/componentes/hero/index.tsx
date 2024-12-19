@@ -1,6 +1,11 @@
+import useEventListener from '@use-it/event-listener';
 import React from 'react'
 import './index.css'
 import { HERO_HEMET_OFFSET, TILE_SIZE } from '../../settings/constantes';
+
+function hadclick(event){
+  console.log("Deu certo", event.key)
+}
 
 const initialPosition = {
   x: 1, 
@@ -8,13 +13,20 @@ const initialPosition = {
 }
 
 const Hero = () => {
+
   const [positionState, positionStateUpdate] = React.useState(initialPosition);
   
+
+  useEventListener('keydown', hadclick);
+
+
   setTimeout(() => {
     const newPosition = {x: 30, y:0};
     positionStateUpdate(newPosition);
 
   }, 2000)
+
+  
 
    return(
     <>
